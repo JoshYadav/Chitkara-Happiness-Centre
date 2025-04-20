@@ -10,18 +10,27 @@
 ✨ Key Features
 
 🌐 Fully responsive layout for all screen sizes
+
 🎯 Clear representation of goals and initiatives
+
 📸 Gallery section with nice transitions
+
 💡 Stand-alone section for PERMA model of happiness
+
 🎨 Attractive hero section
 
 
 🔹 Role: Team Lead (Project planning, UI design, code architecture)
+
 🔹 Tech Stack: HTML & CSS
+
 🔹 Timeline: Semester I project
 
 
 👨‍💻 Made With ❤️ By:
+
 Josh Yadav
+
 Harpreet Singh
+
 Kanishak
