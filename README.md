@@ -1,7 +1,7 @@
 💫 Chitkara Happiness Centre Website
 
 
-"The project itself is an exciting, innovating website that represents Chitkara Happiness Centre's vision and values. The website uses simple HTML and CSS scripting to communicate the vision, mission, initiatives, and PERMA model of well-being.
+The project itself is an exciting, innovating website that represents Chitkara Happiness Centre's vision and values. The website uses simple HTML and CSS scripting to communicate the vision, mission, initiatives, and PERMA model of well-being.
 
 
 🚀 This project was part of our first semester, and we connected through design and meaningful collaboration as a group of three, focusing on creating a responsive, beautiful, educational, and inspiring website.
