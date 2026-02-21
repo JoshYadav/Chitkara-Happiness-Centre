@@ -1,0 +1,310 @@
+/* =====================
+   GLOBAL STYLES
+===================== */
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #111;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+/* =====================
+   HEADER
+===================== */
+.header {
+    background: linear-gradient(45deg, #ff1c1c, #ff9900);
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+}
+
+.logo {
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    width: 140px;
+    transform: rotate(-10deg);
+    transition: transform 0.3s ease-in-out;
+}
+
+.happiness {
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    width: 120px;
+    transform: rotate(10deg);
+    transition: transform 0.3s ease-in-out;
+}
+
+.logo:hover,
+.happiness:hover {
+    transform: scale(1.1);
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 3em;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.8);
+}
+
+/* =====================
+   NAVIGATION
+===================== */
+.navigation {
+    background: linear-gradient(90deg, #ff1c1c, #ff9900);
+    padding: 15px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+}
+
+.navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.navigation a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.navigation a:hover {
+    background: #fff;
+    color: #ff1c1c;
+    border-radius: 5px;
+}
+
+/* =====================
+   HERO SECTION
+===================== */
+.hero {
+    background: url('https://www.chitkara.edu.in/happiness-centre/assets/img/hero-bg02.jpg') center/cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 4em;
+    color: #ff9900;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
+
+/* =====================
+   CONTAINERS
+===================== */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: linear-gradient(135deg, #1e1e1e, #2e2e2e);
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.7);
+}
+
+.content-header h1 {
+    text-align: center;
+    color: #ff1c1c;
+}
+
+.content {
+    text-align: justify;
+    line-height: 1.8;
+    font-size: 1.1em;
+}
+
+/* =====================
+   OBJECTIVES
+===================== */
+.objectives h2 {
+    text-align: center;
+    color: #ff9900;
+}
+
+.objectives-content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.objectives img {
+    max-width: 400px;
+    border-radius: 20px;
+    border: 5px solid #ff1c1c;
+    transition: transform 0.3s ease-in-out;
+}
+
+.objectives img:hover {
+    transform: scale(1.05);
+}
+
+.objectives ul {
+    list-style: none;
+    padding: 0;
+}
+
+.objectives ul li::before {
+    content: "✔ ";
+    color: #ff9900;
+    font-weight: bold;
+}
+
+/* =====================
+   PERMA PROJECT
+===================== */
+.perma h2 {
+    text-align: center;
+    color: #ff1c1c;
+}
+
+.perma-project-container {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.perma-project-text {
+    max-width: 450px;
+}
+
+.perma-project-text h1 {
+    color: #ff9900;
+}
+
+.perma-project-text p {
+    color: #ccc;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 25px;
+    background: #ff1c1c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background 0.3s ease-in-out;
+}
+
+.button:hover {
+    background: #ff9900;
+}
+
+.perma-project-images img {
+    width: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.perma-project-images img:hover {
+    transform: scale(1.05);
+}
+
+/* =====================
+   GALLERY
+===================== */
+.gallery {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery img {
+    max-width: 250px;
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.8);
+}
+
+/* =====================
+   FOOTER
+===================== */
+.footer {
+    background: linear-gradient(90deg, #ff1c1c, #ff9900);
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* =====================
+   MOBILE RESPONSIVENESS
+===================== */
+@media (max-width: 768px) {
+
+    .logo,
+    .happiness {
+        position: static;
+        width: 80px;
+        margin: 10px auto;
+        display: block;
+    }
+
+    .header h1 {
+        font-size: 2em;
+    }
+
+    .navigation li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .hero {
+        height: 350px;
+        padding: 20px;
+    }
+
+    .hero h1 {
+        font-size: 2em;
+    }
+
+    .container {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    .objectives-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .objectives img {
+        max-width: 100%;
+    }
+
+    .perma-project-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .perma-project-images img {
+        width: 100%;
+    }
+
+    .gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gallery img {
+        max-width: 90%;
+    }
+}
