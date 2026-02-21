@@ -1,33 +1,27 @@
 💫 Chitkara Happiness Centre Website
 
+The project is an innovative and meaningful website that represents the vision and values of the Chitkara Happiness Centre.
+It uses simple HTML and CSS to communicate the centre’s vision, mission, initiatives, and the PERMA model of well-being.
 
-The project itself is an exciting, innovating website that represents Chitkara Happiness Centre's vision and values. The website uses simple HTML and CSS scripting to communicate the vision, mission, initiatives, and PERMA model of well-being.
-
-
-🚀 This project was part of our first semester, and we connected through design and meaningful collaboration as a group of three, focusing on creating a responsive, beautiful, educational, and inspiring website.
-
+🚀 This project was developed during our first semester as a group of three. We collaborated closely to design a responsive, educational, and inspiring website focused on positivity and mental well-being.
 
 ✨ Key Features
 
-🌐 Fully responsive layout for all screen sizes
+Fully responsive layout for all screen sizes
 
-🎯 Clear representation of goals and initiatives
+Clear representation of goals and initiatives
 
-📸 Gallery section with nice transitions
+Gallery section with smooth transitions
 
-💡 Stand-alone section for PERMA model of happiness
+Dedicated section for the PERMA model of happiness
 
-🎨 Attractive hero section
+Attractive and engaging hero section
 
-
-🔹 Role: Team Lead (Project planning, UI design, code architecture)
-
+🔹 Role: Team Lead (project planning, UI design, code architecture)
 🔹 Tech Stack: HTML & CSS
+🔹 Academic Context: Semester I project — graded O (Outstanding)
 
-🔹 Timeline: Semester I project
-
-
-👨‍💻 Made With ❤️ By:
+👨‍💻 Made with ❤️ by
 
 Josh Yadav
 
