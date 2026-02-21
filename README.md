@@ -17,8 +17,8 @@ Dedicated section for the PERMA model of happiness
 
 Attractive and engaging hero section
 
-🔹 Role: Team Lead (project planning, UI design, code architecture)
-🔹 Tech Stack: HTML & CSS
+🔹 Role: Team Lead (project planning, UI design, code architecture)                     
+🔹 Tech Stack: HTML & CSS          
 🔹 Academic Context: Semester I project — graded O (Outstanding)
 
 👨‍💻 Made with ❤️ by
